@@ -1,0 +1,9 @@
+{
+    "$schema": "https://typedoc.org/schema.json",
+    "entryPoints": ["./src/index.ts"],
+    "plugin": [
+        "typedoc-plugin-mdn-links",
+        "typedoc-plugin-markdown"
+    ],
+    "out": "./docs"
+}
